@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ac_remote.css" />
+  </head>
+  <body>
+    <div class="card border-primary mb-3" style="width: 25rem;">
+      <div class="display" id="display">
+        <div id="display-details">
+          <span class="temp-display" id="temp-display"></span>
+          <i class="fas fa-snowflake snow-icon"
+            ><span style="padding-left: 5px;">Cool</span></i
+          >
+          <!-- <p class="on-display">ON</p> -->
+          <span id="wind-icon"></span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="long-button">
+          <button class="icon-btn-up" id="wind-up">
+            <i class="fas fa-angle-up icon"></i>
+          </button>
+          <p class="btn-text">FAN</p>
+          <button class="icon-btn-down" id="wind-down">
+            <i class="fas fa-angle-down icon"></i>
+          </button>
+        </div>
+        <div class="long-button2">
+          <button class="icon-btn-up" id="temp-up">
+            <i class="fas fa-angle-up icon"></i>
+          </button>
+          <p class="btn-text">
+            TEMP
+          </p>
+          <button class="icon-btn-down" id="temp-down">
+            <i class="fas fa-angle-down icon"></i>
+          </button>
+        </div>
+        <p>
+          <button class="bttn power-on" id="power-on">ON</button>
+        </p>
+        <button class="bttn power-off" id="power-off">OFF</button>
+      </div>
+    </div>
+    <script src="ac_remote.js"></script>
+  </body>
+</html>

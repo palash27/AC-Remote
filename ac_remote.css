@@ -1,0 +1,117 @@
+.bttn {
+  display: inline-block;
+  text-decoration: none;
+  background: white;
+  color: #424242;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29); */
+  /* border-bottom: solid 3px rgba(0, 0, 0, 0.29); */
+  /* transition: 0.4s; */
+  outline-style: none;
+}
+/*
+.bttn:active {
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); */
+/* box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+   border-bottom: none;
+} */
+.display {
+  height: 250px;
+  background-color: #01579b;
+}
+#display-details {
+  display: none;
+}
+.card {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 600px;
+}
+.power-on {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  display: block;
+}
+.power-off {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  display: block;
+}
+.long-button {
+  float: left;
+  height: 180px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.long-button2 {
+  float: right;
+  height: 180px;
+  width: 50px;
+  margin-top: 50px;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.icon-btn-up {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: white;
+  margin-top: 10px;
+  text-decoration: none;
+  border-color: white;
+}
+.icon-btn-down {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: white;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.btn-text {
+  text-align: center;
+  margin-top: 45px;
+  color: #424242;
+  font-weight: bold;
+}
+.temp-display {
+  font-size: 75px;
+  color: white;
+  margin-left: 150px;
+  position: fixed;
+}
+.snow-icon {
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-top: 225px;
+}
+.wind-icon {
+  float: left;
+  margin-top: 225px;
+  font-size: 25px;
+  color: white;
+  padding-left: 5px;
+}
+.on-display {
+  color: white;
+  margin-left: 11.5rem;
+  padding-top: 200px;
+  font-size: 25px;
+}
